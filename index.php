@@ -10,7 +10,8 @@
     <meta name="author" content="">
 
     <title>DataPub</title>
-
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="img/alt_logo.png">
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
