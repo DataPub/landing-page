@@ -21,6 +21,9 @@ $email_subject = "DataPub Contact Form:  $name";
 $email_body = "Esta e uma mensagem enviada pela formulario de contato do DataPub.\n\n"."Detalhes:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@rhcloud.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
-mail($to,$email_subject,$email_body,$headers);
-return true;			
+if(mail($to,$email_subject,$email_body,$headers)) {
+   echo ("Sucesso");
+} else {
+   echo ("Deu merda");
+}			
 ?>
