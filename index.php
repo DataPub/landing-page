@@ -190,18 +190,18 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form method="post" name="sentMessage" id="contactForm" action="contact_me.php" novalidate>
+                    <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Nome</label>
-                                <input type="text" class="form-control" placeholder="Nome" name="name" id="name" required data-validation-required-message="Por favor digite seu nome.">
+                                <input type="text" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Por favor digite seu nome.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email</label>
-                                <input type="email" class="form-control" placeholder="Email" name="email" id="email" required data-validation-required-message="Por favor digite seu endereço de email.">
+                                <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor digite seu endereço de email.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -213,7 +213,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Mensagem</label>
-                                <textarea rows="5" class="form-control" placeholder="Mensagem" name="message" id="message" required data-validation-required-message="Por favor insira uma mensagem."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Por favor insira uma mensagem."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
