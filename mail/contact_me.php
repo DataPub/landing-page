@@ -26,7 +26,7 @@ $domain = "datapubapp.com.br";
 $result = $mg->sendMessage(
 	$domain,
 	array(
-		'from' => 'no-reply@datapubapp.com.br'),
+		'from' => 'no-reply@datapubapp.com.br',
 		'to' => 'contato@datapubapp.com.br',
 		'subject' => 'Formulario de contato: $name',
 		'text' => '$message')
