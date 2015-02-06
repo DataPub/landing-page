@@ -30,7 +30,7 @@ $result = $mg->sendMessage(
   $domain,
   array(
     'from' => 'no-reply@datapubapp.com.br',   # remetente
-    'to' => 'contato@datapubapp.com.br',    # destinatário
+    'to' => 'b_ferrari@live.com',    # destinatário
     'subject' => 'Email Getup Cloud',    # assunto
     'text' => 'É muito fácil!')          # corpo da mensagem
 );
