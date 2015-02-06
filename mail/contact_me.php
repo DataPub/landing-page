@@ -18,7 +18,7 @@ $message = $_POST['message'];
 
 // Call MailGun API (editado para utilização com MailGun)
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 use Mailgun\Mailgun;
 
 # Primeiro, instancie o SDK com sua credencial de APO e defina seu dominio. 
