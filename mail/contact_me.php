@@ -32,7 +32,7 @@ $result = $mg->sendMessage(
     'from' => 'no-reply@datapubapp.com.br',   # remetente
     'to' => 'contato@datapubapp.com.br',    # destinatário
     'subject' => "Formulario DataPub: $name",    # assunto
-    'text' => "Mensagem enviada pelo formulário de contato.\n\n Nome: $name\n\n Email: $email_address\n\n Mensagem: $message")          # corpo da mensagem
+    'text' => "Mensagem enviada pelo formulário de contato.\n\n <strong>Nome:</strong> $name\n\n <strong>Email:</strong> $email_address\n\n <strong>Mensagem:</strong> $message")          # corpo da mensagem
 );
 	
 // Create the email and send the message
