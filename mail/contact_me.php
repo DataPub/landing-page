@@ -30,8 +30,8 @@ $result = $mg->sendMessage(
   $domain,
   array(
     'from' => 'no-reply@datapubapp.com.br',   # remetente
-    'to' => 'b_ferrari@live.com',    # destinatário
-    'subject' => 'Email LANDING',    # assunto
+    'to' => 'contato@datapubapp.com.br',    # destinatário
+    'subject' => "Formulario DataPub: $name",    # assunto
     'text' => "$message")          # corpo da mensagem
 );
 	
