@@ -25,15 +25,16 @@ use Mailgun\Mailgun;
 $mg = new Mailgun("key-c0f9579ee1ee42397ab5c6ff0117b7c3");
 $domain = "datapubapp.com.br";
 
+$from = 'from' => 'no-reply@datapubapp.com.br';
+$to = 'to' => 'b_ferrari@live.com';
+$subject = 'subject' => 'Email LANDING';
+$text = 'text' => '$message';
+
 # Agora, componha e envie sua mensagem.
 $result = $mg->sendMessage(
   $domain,
   array(
-    'from' => 'no-reply@datapubapp.com.br',   # remetente
-    'to' => 'b_ferrari@live.com',    # destinatário
-    'subject' => 'Email LANDING',    # assunto
-    'text' => '$message')          # corpo da mensagem
-);
+    $from,$to,$subject,$text);
 	
 // Create the email and send the message
 //$to = 'b_ferrari@live.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
