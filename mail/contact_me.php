@@ -1,5 +1,6 @@
 <?php
 // Check for empty fields
+/*
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['phone']) 		||
@@ -8,7 +9,7 @@ if(empty($_POST['name'])  		||
    {
 	echo "No arguments Provided!";
 	return false;
-   }
+   }*/
 	
 $name = $_POST['name'];
 $email_address = $_POST['email'];
