@@ -17,7 +17,7 @@ $message = $_POST['message'];
 
 // Call MailGun API (editado para utilização com MailGun)
 
-require 'vendo/autoload.php';
+require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 
 $mg = new Mailgun("key-c0f9579ee1ee42397ab5c6ff0117b7c3");
