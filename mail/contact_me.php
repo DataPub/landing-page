@@ -1,6 +1,6 @@
 <?php
 // Check for empty fields
-/*
+
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['phone']) 		||
@@ -9,7 +9,7 @@ if(empty($_POST['name'])  		||
    {
 	echo "No arguments Provided!";
 	return false;
-   }*/
+   }
 	
 $name = $_POST['name'];
 $email_address = $_POST['email'];
@@ -32,7 +32,7 @@ $result = $mg->sendMessage(
     'from' => 'no-reply@datapubapp.com.br',   # remetente
     'to' => 'contato@datapubapp.com.br',    # destinatário
     'subject' => "Formulario DataPub: $name",    # assunto
-    'text' => "Email: $email_address\n\n Mensagem: $message")          # corpo da mensagem
+    'text' => "Mensagem enviada pelo formulário de contato.\n\n Nome: $name\n\n Email: $email_address\n\n Mensagem: $message")          # corpo da mensagem
 );
 	
 // Create the email and send the message
