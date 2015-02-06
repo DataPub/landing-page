@@ -31,8 +31,8 @@ $result = $mg->sendMessage(
   array(
     'from' => 'no-reply@datapubapp.com.br',   # remetente
     'to' => 'b_ferrari@live.com',    # destinatário
-    'subject' => 'Email Getup Cloud',    # assunto
-    'text' => 'É muito fácil!')          # corpo da mensagem
+    'subject' => 'Email LANDING',    # assunto
+    'text' => '$message')          # corpo da mensagem
 );
 	
 // Create the email and send the message
