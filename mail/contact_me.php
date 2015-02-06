@@ -20,17 +20,19 @@ $message = $_POST['message'];
 require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 
+# Primeiro, instancie o SDK com sua credencial de APO e defina seu dominio. 
 $mg = new Mailgun("key-c0f9579ee1ee42397ab5c6ff0117b7c3");
 $domain = "datapubapp.com.br";
 
+# Agora, componha e envie sua mensagem.
 $result = $mg->sendMessage(
-	$domain,
-	array(
-		'from' => 'no-reply@datapubapp.com.br',
-		'to' => 'b_ferrari@live.com',
-		'subject' => 'Formulario de contato: $name',
-		'text' => '$message')
-	);
+  $domain,
+  array(
+    'from' => 'no-reply@datapubapp.com.br',   # remetente
+    'to' => 'contato@datapubapp.com.br',    # destinatário
+    'subject' => 'Email Getup Cloud',    # assunto
+    'text' => 'É muito fácil!')          # corpo da mensagem
+);
 	
 // Create the email and send the message
 //$to = 'b_ferrari@live.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
