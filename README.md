@@ -1,4 +1,4 @@
-<h2><a href="http://www.datapubapp.com.br" target="_blank">DataPubApp.com.br</a></h2>
+<h2><a href="http://www.datapubapp.com.br" target="_blank">datapubapp.com.br</a></h2>
 
 Mobile and Web system based for evaluation of public entities, institutions and governmental organs.
 
