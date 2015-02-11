@@ -8,7 +8,11 @@ We use PHP with <a href="http://getbootstrap.com/">Bootstrap</a>
 
 1. Create folder:
 <pre>mkdir yourfoldernamehere</pre>
-2. Than clone the project:
+
+2. Access your new folder:
+<pre>cd yourfoldernamehere</pre>
+
+3. Than clone the project:
 <pre>git clone https://github.com/DataPub/landing-page.git</pre>
 
 
