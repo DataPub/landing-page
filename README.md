@@ -15,4 +15,8 @@ We use PHP with <a href="http://getbootstrap.com/">Bootstrap</a>
 3. Than clone the project:
 <pre>git clone https://github.com/DataPub/landing-page.git</pre>
 
+4. Enjoy!
+
+DataPub and DataPubApp are building on São Paulo State Technological College (<a href="fatecourinhos.edu.br">FATEC</a>), Ourinhos, São Paulo, Brazil
+
 
