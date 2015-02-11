@@ -17,6 +17,6 @@ We use PHP with <a href="http://getbootstrap.com/">Bootstrap</a>
 
 4. Enjoy!
 
-DataPub and DataPubApp are building on São Paulo State Technological College (<a href="fatecourinhos.edu.br">FATEC</a>), Ourinhos, São Paulo, Brazil
+DataPub and DataPubApp are built by students of São Paulo State Technological College (<a href="fatecourinhos.edu.br">FATEC</a>), Ourinhos, São Paulo, Brazil
 
 
