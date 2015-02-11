@@ -1,4 +1,4 @@
-<h2>DataPub e DataPubApp</h2>
+<h2>DataPub and DataPubApp</h2>
 
 Mobile and Web system based for evaluation of public entities, institutions and governmental organs.
 
@@ -17,6 +17,6 @@ We use PHP with <a href="http://getbootstrap.com/">Bootstrap</a>
 
 4. Enjoy!
 
-DataPub and DataPubApp are building on São Paulo State Technological College (<a href="fatecourinhos.edu.br">FATEC</a>), Ourinhos, São Paulo, Brazil
+DataPub and DataPubApp are building on <h3>São Paulo State Technological College (<a href="fatecourinhos.edu.br">FATEC</a>)</h3>, Ourinhos, São Paulo, Brazil
 
 
