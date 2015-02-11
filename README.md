@@ -4,7 +4,7 @@ Mobile and Web system based for evaluation of public entities, institutions and 
 
 <hr />
 <h3>How it works?</h3>
-We use PHP with <a href="http://getbootstrap.com/">Bootstrap</a>
+We use PHP with <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
 
 1. Create folder:
 <pre>mkdir yourfoldernamehere</pre>
@@ -17,6 +17,6 @@ We use PHP with <a href="http://getbootstrap.com/">Bootstrap</a>
 
 4. Enjoy!
 
-DataPub and DataPubApp are built by students of São Paulo State Technological College (<a href="http://fatecourinhos.edu.br">FATEC</a>), Ourinhos, São Paulo, Brazil
+DataPub and DataPubApp are built by students of São Paulo State Technological College (<a href="http://fatecourinhos.edu.br" target="_blank">FATEC</a>), Ourinhos, São Paulo, Brazil
 
 
